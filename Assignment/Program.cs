@@ -66,15 +66,36 @@ namespace Assignment
 
             #region Q4
 
-            Console.WriteLine("Enter Number");
-            int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Number");
+            //int number = int.Parse(Console.ReadLine());
 
-            if (number % 3 == 0 && number % 4 == 0)
-                Console.WriteLine("yes");
-            else if (number % 4 == 0)
-                Console.WriteLine("Even number");
-            else
-                Console.WriteLine("Individual number");
+            //if (number % 3 == 0 && number % 4 == 0)
+            //    Console.WriteLine("yes");
+            //else if (number % 4 == 0)
+            //    Console.WriteLine("Even number");
+            //else
+            //    Console.WriteLine("Individual number");
+            #endregion
+
+            #region Q5
+
+            Console.WriteLine("Enter a letter");
+            string X = (Console.ReadLine());
+            switch (X) 
+            {
+                case "a":
+                case "e":
+                case "I":
+                case "o":
+                case "u":
+                    Console.WriteLine("vowel");
+                    break;
+                default:
+                    Console.WriteLine("Consonant");
+                    break;
+            }
+
+
             #endregion
 
 
