@@ -24,17 +24,43 @@ namespace Assignment
 
             #region Q2
 
+            // Console.WriteLine("Enter Number");
+            // int number = int.Parse(Console.ReadLine());
+            // switch (number)
+            // {
+            //     case > 0:
+            //         Console.WriteLine("positive");
+            //         break;
+            //     default:
+            //         Console.WriteLine("negative");
+            //         break;
+            // }
+
+            #endregion
+
+            #region Q3
             Console.WriteLine("Enter Number");
-            int number = int.Parse(Console.ReadLine());
-            switch (number)
-            {
-                case > 0:
-           Console.WriteLine("positive");
-                    break;
-                default:
-                    Console.WriteLine("negative");
-                    break;
-            }
+            int A = int.Parse(Console.ReadLine());
+            int B = int.Parse(Console.ReadLine());
+            int C = int.Parse(Console.ReadLine());
+
+            if (A > B && A > C)
+                Console.WriteLine($"max element {A}");
+            else if (B > A && B > C)
+                Console.WriteLine($"max element {B}");
+            else if (C > A && C > B)
+                Console.WriteLine($"max element {C}");
+            if (A < B && A < C)
+                Console.WriteLine($"min element {A}");
+            else if (B < A && B < C)
+                Console.WriteLine($"min element {B}");
+            else if (C < A && C < B)
+                Console.WriteLine($"min element {C}");
+
+
+
+
+
 
             #endregion
         }
