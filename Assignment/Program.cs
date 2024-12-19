@@ -99,7 +99,7 @@ namespace Assignment
 
             #endregion
 
-            #region Q6
+            #region Q7
             //Console.WriteLine("Enter Number");
             //int X = int.Parse(Console.ReadLine());
             //Console.Clear();
@@ -119,27 +119,57 @@ namespace Assignment
 
             #endregion
 
-            #region Q7
+            #region Q9
 
-            Console.WriteLine("Enter Number");
+            //Console.WriteLine("Enter Number");
 
-            string inputX = Console.ReadLine();
+            //string inputX = Console.ReadLine();
 
-            
-            string[ ] SS = inputX.Split(' ');
 
-            
-            int X = int.Parse(SS[0]);
-            int Y = int.Parse(SS[1]);
+            //string[ ] SS = inputX.Split(' ');
 
-            //int X = int.Parse(Console.ReadLine());
-            //int Y = int.Parse(Console.ReadLine());
 
-            double Result = Math.Pow(X, Y);
+            //int X = int.Parse(SS[0]);
+            //int Y = int.Parse(SS[1]);
 
-            Console.WriteLine(Result);
+            ////int X = int.Parse(Console.ReadLine());
+            ////int Y = int.Parse(Console.ReadLine());
 
-        
+            //double Result = Math.Pow(X, Y);
+
+            //Console.WriteLine(Result);
+
+
+            #endregion
+
+            #region Q10
+
+            Console.WriteLine("Enter Marks of five subjects: ");
+
+            string inputs = Console.ReadLine();
+
+            string[] input = inputs.Split(" ");
+
+            int sub1 = int.Parse(input[0]);
+            int sub2 = int.Parse(input[1]);
+            int sub3 = int.Parse(input[2]);
+            int sub4 = int.Parse(input[3]);
+            int sub5 = int.Parse(input[4]);
+
+            double TotalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
+
+            double AverageMarks = TotalMarks / 5;
+
+            double Percentage = (TotalMarks / 500) * 100;
+
+
+            Console.WriteLine(TotalMarks);
+
+            Console.WriteLine(AverageMarks);
+
+            Console.WriteLine(Percentage);
+
+
             #endregion
 
 
