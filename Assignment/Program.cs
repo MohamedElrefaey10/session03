@@ -263,11 +263,11 @@ namespace Assignment
 
             #region Q23
 
-            int d;
-            d = Convert.ToInt32(!(30 < 20));
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
 
-            Console.WriteLine(d);
-            // b) A value 1 will be assigned to d.
+            //Console.WriteLine(d);
+            //// b) A value 1 will be assigned to d.
 
             //Console.WriteLine(13 / 2 + " " + 13 % 2);
 
@@ -275,6 +275,11 @@ namespace Assignment
 
 
 
+            #endregion
+
+            #region Q24
+
+            d) 6 1 // becuse 13 and 2 int type 
             #endregion
 
 
