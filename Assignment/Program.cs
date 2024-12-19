@@ -244,21 +244,37 @@ namespace Assignment
 
             #region  Q22
 
-            Employee mp1 = new Employee();
+            //Employee mp1 = new Employee();
 
-            mp1.id = 50;
-            
+            //mp1.id = 50;
 
-            Employee mp2 = mp1;
 
-            Console.WriteLine(mp1.id);  // 50
-            Console.WriteLine(mp2.id);  // 50
+            //Employee mp2 = mp1;
 
-            Console.WriteLine("---------------");  
-            mp1.id = 25;
+            //Console.WriteLine(mp1.id);  // 50
+            //Console.WriteLine(mp2.id);  // 50
 
-            Console.WriteLine(mp1.id);  // 25
-            Console.WriteLine(mp2.id);  // 25
+            //Console.WriteLine("---------------");  
+            //mp1.id = 25;
+
+            //Console.WriteLine(mp1.id);  // 25
+            //Console.WriteLine(mp2.id);  // 25
+            #endregion
+
+            #region Q23
+
+            int d;
+            d = Convert.ToInt32(!(30 < 20));
+
+            Console.WriteLine(d);
+            // b) A value 1 will be assigned to d.
+
+            //Console.WriteLine(13 / 2 + " " + 13 % 2);
+
+
+
+
+
             #endregion
 
 
