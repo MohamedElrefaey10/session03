@@ -175,34 +175,51 @@ namespace Assignment
 
             #region Q11
 
-            Console.WriteLine("Enter number of the month");
+            //Console.WriteLine("Enter number of the month");
 
-            int Numb = int.Parse(Console.ReadLine());
+            //int Numb = int.Parse(Console.ReadLine());
 
-            switch (Numb)
+            //switch (Numb)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("Days in Month: 31");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month: 28");
+            //        break;
+            //}
+
+
+
+
+            #endregion
+
+            #region Q17
+
+            Console.WriteLine("Enter Time");
+
+            double xx = double.Parse(Console.ReadLine());
+
+            string Massage = xx switch
             {
-                case 1:
-                case 3:
-                case 5:
-                case 7:
-                case 8:
-                case 10:
-                case 12:
-                    Console.WriteLine("Days in Month: 31");
-                    break;
-                case 4:
-                case 6:
-                case 9:
-                case 11:
-                    Console.WriteLine("Days in Month: 30");
-                    break;
-                case 2:
-                    Console.WriteLine("Days in Month: 28");
-                    break;
-            }
-
-
-
+                >= 2 and <= 3  => "Highly Efficient.",
+                > 3 and <= 4 => "Instruct to increase speed.",
+                > 4 and <= 5 => "Provide training to improve speed.",
+                > 5 => "Required to leave the company."
+            };
+            Console.WriteLine(Massage);
 
             #endregion
 
