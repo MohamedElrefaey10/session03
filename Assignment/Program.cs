@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -228,18 +229,39 @@ namespace Assignment
             #endregion
 
             #region Q21
-            int X = 10;
-            int Y = X;
+            //int X = 10;
+            //int Y = X;
 
-            Console.WriteLine(X); // 10
-            Console.WriteLine(Y); // 10
+            //Console.WriteLine(X); // 10
+            //Console.WriteLine(Y); // 10
 
-            X = 5;
-            Console.WriteLine("------------");
+            //X = 5;
+            //Console.WriteLine("------------");
 
-            Console.WriteLine(X);  // 5
-            Console.WriteLine(X);  // 5 
+            //Console.WriteLine(X);  // 5
+            //Console.WriteLine(Y);  // 10 
             #endregion
+
+            #region  Q22
+
+            Employee mp1 = new Employee();
+
+            mp1.id = 50;
+            
+
+            Employee mp2 = mp1;
+
+            Console.WriteLine(mp1.id);  // 50
+            Console.WriteLine(mp2.id);  // 50
+
+            Console.WriteLine("---------------");  
+            mp1.id = 25;
+
+            Console.WriteLine(mp1.id);  // 25
+            Console.WriteLine(mp2.id);  // 25
+            #endregion
+
+
 
 
 
