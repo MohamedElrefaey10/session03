@@ -209,6 +209,40 @@ namespace Assignment
 
             #region Q17
 
+            Console.WriteLine("Enter x1 , y1");
+            string xxx = Console.ReadLine();
+            string[] x1 = xxx.Split(',');
+
+            Console.WriteLine("Enter x2 , y2");
+            string xxx2 = Console.ReadLine();
+            string[] x2 = xxx2.Split(',');
+
+            Console.WriteLine("Enter x3 , y3");
+            string xxx3 = Console.ReadLine();
+            string[] x3 = xxx3.Split(',');
+
+            
+
+            double a = double.Parse(x1[0]);
+            double b = double.Parse(x1[1]);
+                 
+            double c = double.Parse(x2[0]);
+            double d = double.Parse(x2[1]);
+                
+            double e = double.Parse(x3[0]);
+            double f = double.Parse(x3[1]);
+
+            double result1 = (d - b) / (c - a);
+            double result2 = (f - d) / (e - c);
+            double result3 = (f - b) / (e - a);
+
+            if (result1 == result2 && result2 == result3 && result1 == result3)
+                Console.WriteLine("The points lie on a single straight line.");
+            else
+                Console.WriteLine("The points do not lie on a single straight line.");
+
+
+
 
 
             #endregion
@@ -284,7 +318,7 @@ namespace Assignment
 
             #region Q25
 
-            d) 7 7
+            //d) 7 7
 
 
             #endregion
