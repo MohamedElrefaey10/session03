@@ -227,6 +227,7 @@ namespace Assignment
 
             #endregion
 
+            #region Q21
             int X = 10;
             int Y = X;
 
@@ -237,7 +238,8 @@ namespace Assignment
             Console.WriteLine("------------");
 
             Console.WriteLine(X);  // 5
-            Console.WriteLine(X);  // 5
+            Console.WriteLine(X);  // 5 
+            #endregion
 
 
 
