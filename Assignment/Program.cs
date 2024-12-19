@@ -100,23 +100,46 @@ namespace Assignment
             #endregion
 
             #region Q6
+            //Console.WriteLine("Enter Number");
+            //int X = int.Parse(Console.ReadLine());
+            //Console.Clear();
+
+            //Console.WriteLine(X * 1);
+            //Console.WriteLine(X * 2);
+            //Console.WriteLine(X * 3);
+            //Console.WriteLine(X * 4);
+            //Console.WriteLine(X * 5);
+            //Console.WriteLine(X * 6);
+            //Console.WriteLine(X * 7);
+            //Console.WriteLine(X * 8);
+            //Console.WriteLine(X * 9);
+            //Console.WriteLine(X * 10);
+            //Console.WriteLine(X * 11);
+            //Console.WriteLine(X * 12);
+
+            #endregion
+
+            #region Q7
+
             Console.WriteLine("Enter Number");
-            int X = int.Parse(Console.ReadLine());
-            Console.Clear();
 
-            Console.WriteLine(X * 1);
-            Console.WriteLine(X * 2);
-            Console.WriteLine(X * 3);
-            Console.WriteLine(X * 4);
-            Console.WriteLine(X * 5);
-            Console.WriteLine(X * 6);
-            Console.WriteLine(X * 7);
-            Console.WriteLine(X * 8);
-            Console.WriteLine(X * 9);
-            Console.WriteLine(X * 10);
-            Console.WriteLine(X * 11);
-            Console.WriteLine(X * 12);
+            string inputX = Console.ReadLine();
 
+            
+            string[ ] SS = inputX.Split(' ');
+
+            
+            int X = int.Parse(SS[0]);
+            int Y = int.Parse(SS[1]);
+
+            //int X = int.Parse(Console.ReadLine());
+            //int Y = int.Parse(Console.ReadLine());
+
+            double Result = Math.Pow(X, Y);
+
+            Console.WriteLine(Result);
+
+        
             #endregion
 
 
