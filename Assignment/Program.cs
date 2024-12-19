@@ -163,11 +163,11 @@ namespace Assignment
             double Percentage = (TotalMarks / 500) * 100;
 
 
-            Console.WriteLine(TotalMarks);
+            Console.WriteLine("Total Marks : "+ TotalMarks);
 
-            Console.WriteLine(AverageMarks);
+            Console.WriteLine("AverageMarks : "+AverageMarks);
 
-            Console.WriteLine(Percentage);
+            Console.WriteLine("Percentage : "+ Percentage);
 
 
             #endregion
