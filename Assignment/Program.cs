@@ -208,20 +208,26 @@ namespace Assignment
 
             #region Q17
 
-            Console.WriteLine("Enter Time");
+
+
+            #endregion
+            #region Q18
+            Console.WriteLine("enter time");
 
             double xx = double.Parse(Console.ReadLine());
 
-            string Massage = xx switch
+            string massage = xx switch
             {
-                >= 2 and <= 3  => "Highly Efficient.",
-                > 3 and <= 4 => "Instruct to increase speed.",
-                > 4 and <= 5 => "Provide training to improve speed.",
-                > 5 => "Required to leave the company."
+                >= 2 and <= 3 => "highly efficient.",
+                > 3 and <= 4 => "instruct to increase speed.",
+                > 4 and <= 5 => "provide training to improve speed.",
+                > 5 => "required to leave the company."
             };
-            Console.WriteLine(Massage);
+            Console.WriteLine(massage);
 
             #endregion
+
+
 
 
         }
