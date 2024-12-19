@@ -279,7 +279,14 @@ namespace Assignment
 
             #region Q24
 
-            d) 6 1 // becuse 13 and 2 int type 
+            //d) 6 1 // becuse 13 and 2 int type 
+            #endregion
+
+            #region Q25
+
+            d) 7 7
+
+
             #endregion
 
 
