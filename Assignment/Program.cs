@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
 {
@@ -79,22 +80,42 @@ namespace Assignment
 
             #region Q5
 
-            Console.WriteLine("Enter a letter");
-            string X = (Console.ReadLine());
-            switch (X) 
-            {
-                case "a":
-                case "e":
-                case "I":
-                case "o":
-                case "u":
-                    Console.WriteLine("vowel");
-                    break;
-                default:
-                    Console.WriteLine("Consonant");
-                    break;
-            }
+            //Console.WriteLine("Enter a letter");
+            //string X = (Console.ReadLine());
+            //switch (X)
+            //{
+            //    case "a":
+            //    case "e":
+            //    case "I":
+            //    case "o":
+            //    case "u":
+            //        Console.WriteLine("vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Consonant");
+            //        break;
+            //}
 
+
+            #endregion
+
+            #region Q6
+            Console.WriteLine("Enter Number");
+            int X = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            Console.WriteLine(X * 1);
+            Console.WriteLine(X * 2);
+            Console.WriteLine(X * 3);
+            Console.WriteLine(X * 4);
+            Console.WriteLine(X * 5);
+            Console.WriteLine(X * 6);
+            Console.WriteLine(X * 7);
+            Console.WriteLine(X * 8);
+            Console.WriteLine(X * 9);
+            Console.WriteLine(X * 10);
+            Console.WriteLine(X * 11);
+            Console.WriteLine(X * 12);
 
             #endregion
 
