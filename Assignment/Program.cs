@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
@@ -142,32 +143,65 @@ namespace Assignment
 
             #endregion
 
+
             #region Q10
 
-            Console.WriteLine("Enter Marks of five subjects: ");
+            //Console.WriteLine("Enter Marks of five subjects: ");
 
-            string inputs = Console.ReadLine();
+            //string inputs = Console.ReadLine();
 
-            string[] input = inputs.Split(" ");
+            //string[] input = inputs.Split(" ");
 
-            int sub1 = int.Parse(input[0]);
-            int sub2 = int.Parse(input[1]);
-            int sub3 = int.Parse(input[2]);
-            int sub4 = int.Parse(input[3]);
-            int sub5 = int.Parse(input[4]);
+            //int sub1 = int.Parse(input[0]);
+            //int sub2 = int.Parse(input[1]);
+            //int sub3 = int.Parse(input[2]);
+            //int sub4 = int.Parse(input[3]);
+            //int sub5 = int.Parse(input[4]);
 
-            double TotalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
+            //double TotalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
 
-            double AverageMarks = TotalMarks / 5;
+            //double AverageMarks = TotalMarks / 5;
 
-            double Percentage = (TotalMarks / 500) * 100;
+            //double Percentage = (TotalMarks / 500) * 100;
+
+            //Console.WriteLine("Total Marks : "+ TotalMarks);
+
+            //Console.WriteLine("AverageMarks : "+AverageMarks);
+
+            //Console.WriteLine("Percentage : "+ Percentage);
 
 
-            Console.WriteLine("Total Marks : "+ TotalMarks);
+            #endregion
 
-            Console.WriteLine("AverageMarks : "+AverageMarks);
+            #region Q11
 
-            Console.WriteLine("Percentage : "+ Percentage);
+            Console.WriteLine("Enter number of the month");
+
+            int Numb = int.Parse(Console.ReadLine());
+
+            switch (Numb)
+            {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    Console.WriteLine("Days in Month: 31");
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    Console.WriteLine("Days in Month: 30");
+                    break;
+                case 2:
+                    Console.WriteLine("Days in Month: 28");
+                    break;
+            }
+
+
 
 
             #endregion
